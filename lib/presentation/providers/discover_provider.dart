@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:videos_flutter_basic/domain/entities/video_post.dart';
 import 'package:videos_flutter_basic/domain/repositories/video_posts_repository.dart';
-import 'package:videos_flutter_basic/domain/shared/data/local_video_posts.dart';
-import 'package:videos_flutter_basic/infrastructure/models/local_video_model.dart';
 
 class DiscoverProvider extends ChangeNotifier {
   final VideoPostsRepository videoRepository;
